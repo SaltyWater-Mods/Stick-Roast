@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "stickroast",
+  "name": "Stick Roast",
+  "side" : "universal",
+  "description": "Let's you use a stick to roast food",
+  "version": "0.1.0",
+  "authors": [ "SaltyWater" ],
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

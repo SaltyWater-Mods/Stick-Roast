@@ -1,0 +1,42 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      { "name": "StickRoasting" }
+    ],
+    "file": "game:itemtypes/resource/stick.json"
+  },
+  {
+    "op": "add",
+    "path": "/storageFlagsByType",
+    "value": {
+      "redmeat-raw": 257
+    },
+    "file": "game:itemtypes/food/redmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/storageFlagsByType",
+    "value": {
+      "poultry-raw": 257
+    },
+    "file": "game:itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/storageFlagsByType",
+    "value": {
+      "bushmeat-raw": 257
+    },
+    "file": "game:itemtypes/food/bushmeat.json"
+  },
+  {
+    "op": "add",
+    "path": "/storageFlagsByType",
+    "value": {
+      "fish-raw": 257
+    },
+    "file": "game:itemtypes/food/fishfillet.json"
+  }
+]

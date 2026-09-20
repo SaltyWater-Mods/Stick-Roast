@@ -1,0 +1,42 @@
+[
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "Add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "roastingfood",
+      "animation": "RoastingFood",
+      "blendMode": "AddAverage",
+      "weight": 10
+    }
+  },
+  {
+    "file": "game:shapes/entity/humanoid/seraph-faceless",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "RoastingFood",
+      "code": "roastingfood",
+      "quantityframes": 70,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"UpperTorso": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperArmR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 8.0, "rotationY": -2.0, "rotationZ": -17.0 },
+						"LowerArmR": { "rotationX": -8.0, "rotationY": 0.0, "rotationZ": -28.0 },
+						"UpperArmL": { "offsetX": 1.0, "offsetY": 0.0, "offsetZ": 0.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+					"UpperTorso": { "offsetX": 0.0, "offsetY": -0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 }
+          }
+        }
+      ]
+    }
+  }
+]

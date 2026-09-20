@@ -1,0 +1,138 @@
+[
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "Add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "skewerfood",
+      "animation": "SkewerFood",
+      "blendMode": "AddAverage",
+      "weight": 10,
+      "attributes": {
+        "foodTransferAtFrame": 30
+      }
+    }
+  },
+  {
+    "file": "game:entities/humanoid/player",
+    "op": "Add",
+    "path": "/client/animations/-",
+    "value": {
+      "code": "unskewerfood",
+      "animation": "UnskewerFood",
+      "blendMode": "AddAverage",
+      "weight": 10,
+      "attributes": {
+        "foodTransferAtFrame": 6
+      }
+    }
+  },
+  {
+    "file": "game:shapes/entity/humanoid/seraph-faceless",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "SkewerFood",
+      "code": "skewerfood",
+      "quantityframes": 45,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "EaseOut",
+      "keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"UpperArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 15,
+					"elements": {
+						"UpperArmL": { "rotationX": -22.0, "rotationY": -22.0, "rotationZ": -53.0 },
+						"LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": -8.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperArmL": { "rotationX": -28.0, "rotationY": -17.0, "rotationZ": -86.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -47.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 34,
+					"elements": {
+						"UpperArmL": { "rotationX": -22.0, "rotationY": -42.0, "rotationZ": -75.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -55.0, "rotationZ": -6.0 }
+					}
+				},
+				{
+					"frame": 40,
+					"elements": {
+						"LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"UpperTorso": { "rotationX": 0.0, "rotationY": -8.0, "rotationZ": 0.0 },
+						"UpperArmL": { "rotationX": -28.0, "rotationY": -42.0, "rotationZ": -75.0 },
+						"LowerArmL": { "rotationX": 0.0, "rotationY": -47.0, "rotationZ": 0.0 }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "game:shapes/entity/humanoid/seraph-faceless",
+    "op": "Add",
+    "path": "/animations/-",
+    "value": {
+      "name": "UnskewerFood",
+      "code": "unskewerfood",
+      "quantityframes": 30,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "EaseOut",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+            "UpperTorso": { "rotationX": 0.0, "rotationY": -8.0, "rotationZ": 0.0 },
+            "UpperArmL": { "rotationX": -28.0, "rotationY": -42.0, "rotationZ": -75.0 },
+            "LowerArmL": { "rotationX": 0.0, "rotationY": -47.0, "rotationZ": 0.0 }
+          }
+        },
+        {
+          "frame": 6,
+          "elements": {
+            "UpperArmL": { "rotationX": -22.0, "rotationY": -42.0, "rotationZ": -75.0 },
+            "LowerArmL": { "rotationX": 0.0, "rotationY": -55.0, "rotationZ": -6.0 }
+          }
+        },
+        {
+          "frame": 10,
+          "elements": {
+            "LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+            "UpperArmL": { "rotationX": -28.0, "rotationY": -42.0, "rotationZ": -75.0 },
+            "LowerArmL": { "rotationX": 0.0, "rotationY": -47.0, "rotationZ": 0.0 }
+          }
+        },
+        {
+          "frame": 25,
+          "elements": {
+            "UpperArmL": { "rotationX": -22.0, "rotationY": -22.0, "rotationZ": -53.0 },
+            "LowerTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+            "UpperTorso": { "rotationX": 0.0, "rotationY": -8.0, "rotationZ": 0.0 }
+          }
+        },
+        {
+          "frame": 29,
+          "elements": {
+            "UpperArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+            "LowerArmL": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+            "UpperTorso": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+          }
+        }
+      ]
+    }
+  }
+]
